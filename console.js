@@ -1,8 +1,8 @@
  
 //How much loop Time needed
-var loopTimes=5000;
+var loopTimes=500;
 //Sleep between each loop
-var sleepMicroSecond=31050;
+var sleepMicroSecond=3050;
 
  
 
@@ -51,3 +51,4 @@ function myLoop () {           //  create a loop function
 }
 
 myLoop();  
+window.onload=myLoop
